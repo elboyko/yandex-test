@@ -7,6 +7,21 @@ $(".slider__gallery").slick({
   nextArrow: ".slider__control-btnRight",
   responsive: [
     {
+      breakpoint: 1201,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+
+    {
+      breakpoint: 801,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
       breakpoint: 376,
       settings: {
         slidesToShow: 1,
